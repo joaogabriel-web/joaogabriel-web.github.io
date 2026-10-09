@@ -1,0 +1,19 @@
+* {
+    background-color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+}
+
+h1:hover {
+    color: #ff0000;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
