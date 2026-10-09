@@ -10,3 +10,12 @@ h1 {
 h1:hover {
     color: #ff0000;
 }
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+h2:hover {
+    color: #ff0000;
+}
