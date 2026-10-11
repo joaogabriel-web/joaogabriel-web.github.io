@@ -1,17 +1,18 @@
-const menuButton = document.querySelector(".menu-toggle");
-const siteNav = document.querySelector(".site-nav");
-
-if (menuButton && siteNav) {
-    menuButton.addEventListener("click", () => {
-        const isOpen = menuButton.getAttribute("aria-expanded") === "true";
-        menuButton.setAttribute("aria-expanded", String(!isOpen));
-        siteNav.classList.toggle("is-open", !isOpen);
-    });
-
-    siteNav.addEventListener("click", (event) => {
-        if (event.target instanceof HTMLAnchorElement) {
-            menuButton.setAttribute("aria-expanded", "false");
-            siteNav.classList.remove("is-open");
-        }
-    });
+// Função para navegar entre páginas
+function navegar(pagina) {
+  window.location.href = pagina;
 }
+
+// Adiciona eventos aos links ou botões
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll("[data-page]");
+  
+  links.forEach(link => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault(); // evita comportamento padrão
+      const destino = link.getAttribute("data-page");
+      navegar(destino);
+    });
+  });
+});
+    
