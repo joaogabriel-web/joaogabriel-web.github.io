@@ -1,7 +1,7 @@
 name: Teste automatizados
 
 on:
-  pull_resquest:
+  pull_request:
     type: [opened, synchronize, reopened]
 
 jobs: 
