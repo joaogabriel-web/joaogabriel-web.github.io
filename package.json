@@ -1,0 +1,24 @@
+{
+  "name": "joaogabriel-web.github.io",
+  "version": "1.0.0",
+  "description": "Meu portifólio pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogabriel-web/joaogabriel-web.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joaogabriel-web/joaogabriel-web.github.io/issues"
+  },
+  "homepage": "https://github.com/joaogabriel-web/joaogabriel-web.github.io#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
